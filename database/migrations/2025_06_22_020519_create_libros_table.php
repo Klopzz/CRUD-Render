@@ -12,10 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('libros', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('nombre', 100);
-            $table->string('descripcion',200);
-            $table->foreignId('autor_id')->constrained('autor')->onDelete('cascade');
+            $table->string('descripcion', 200);
+            $table->bigInteger('autor_id'); // No uses unsigned
+            $table->foreign('autor_id')->references('id')->on('autor')->onDelete('cascade');
             $table->timestamps();
         });
     }
