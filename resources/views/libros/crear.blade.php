@@ -2,7 +2,7 @@
 @section('content')
   <div class="card-body">
     <h5 class="card-title">Añadir un libro</h5>
-    <form method="POST" action="{{ route('libros.store') }}">
+    <form method="POST" action="{{ route('libros.guardar') }}">
         @csrf
         <div class="form-group">
             <label for="nombre">Nombre:</label>

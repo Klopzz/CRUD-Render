@@ -15,19 +15,19 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      @foreach ($libros as $libro)
-      <td>{{  $libro->nombre  }}</td>
-      <td>{{  $libro->descripcion  }}</td>
-      <td>{{ $libro->autor ? $libro->autor->nombre : '' }}</td>
-      <td>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal{{ $libro->id }}">Actualizar</button>
-        @include('libros.actualizar')
-      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminarModal{{ $libro->id }}">Eliminar</button>
-        @include('libros.eliminar', ['libro' => $libro])  
-      </td>  
+    @foreach ($libros as $libro)
+      <tr>
+        <td>{{  $libro->nombre  }}</td>
+        <td>{{  $libro->descripcion  }}</td>
+        <td>{{ $libro->autor ? $libro->autor->nombre : '' }}</td>
+        <td>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal{{ $libro->id }}">Actualizar</button>
+          @include('libros.actualizar')
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminarModal{{ $libro->id }}">Eliminar</button>
+          @include('libros.eliminar', ['libro' => $libro])  
+        </td>  
       </tr>
-      @endforeach
+     @endforeach
   </tbody>
 </table>
 @if (session('success'))

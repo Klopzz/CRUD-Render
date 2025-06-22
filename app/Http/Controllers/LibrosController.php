@@ -19,14 +19,13 @@ class LibrosController extends Controller
         $busqueda = $request->input('busqueda');
         $libros = Libros::with('autor')
             ->when($busqueda, function($query, $busqueda) {
-            $query->where('nombre', 'LIKE', "%{$busqueda}%")
+            $query->where('nombre', 'ILIKE', "%{$busqueda}%")
                   ->orWhereHas('autor', function($q) use ($busqueda) {
-                      $q->where('nombre', 'LIKE', "%{$busqueda}%");
+                      $q->where('nombre', 'ILIKE', "%{$busqueda}%");
                   });
         })
         ->orderBy('nombre', 'asc') // <-- Ordena alfabéticamente por nombre
         ->get();
-        
         return view('libros.leer', compact('libros'));      // Pasamos los libros a la vista
     }
 
@@ -36,7 +35,7 @@ class LibrosController extends Controller
         return view('libros.eliminar', compact('libros'));
     }
 
-    public function update(Request $request, Libros $libro) 
+    public function actualizar(Request $request, Libros $libro) 
     {   
         $request->validate([
             'nombre' => 'required|string|max:100',
@@ -71,7 +70,7 @@ class LibrosController extends Controller
         return redirect()->back()->with('success', 'Libro actualizado exitosamente.'); 
     }
 
-    public function store(Request $request){
+    public function guardar(Request $request){
 
         $request->validate([
             'nombre' => 'required|string|max:100',
@@ -98,7 +97,7 @@ class LibrosController extends Controller
 
     }
 
-    public function destroy(Libros $libro){
+    public function borrar(Libros $libro){
         $autorId = $libro->autor_id; // Guarda el autor antes de eliminar el libro
         $libro->delete();
         // Verifica si el autor quedó huérfano
