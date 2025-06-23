@@ -100,10 +100,10 @@ routes/
 
 ## ⚙️ Tecnologías utilizadas
 
-- <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" height="20" width="20"/> Laravel 12.19.3
-- <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg" alt="Laragon" height="20" width="20"/> Laragon 8.1.0
-- <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="20" width="20"/>PHP 8.3.16
-- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="20" width="20"/>PostgreSQL 17
+- <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" height="35" width="35"/> Laravel 12.19.3
+- <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg" alt="Laragon" height="35" width="35"/> Laragon 8.1.0
+- <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="35" width="35"/>PHP 8.3.16
+- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="35" width="35"/>PostgreSQL 17
 
 ---
 
