@@ -7,7 +7,7 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 ## 🧠 Funciones del Controlador `LibrosController.php`
 
 ### ✅ `leer(Request $request)`
-
+###
 ```php
 public function leer(Request $request) 
 {
@@ -23,11 +23,10 @@ public function leer(Request $request)
         ->get();
     return view('libros.leer', compact('libros'));
 }
-📝 guardar(Request $request)
-
-php
-Copiar
-Editar
+```
+### 📝 `guardar(Request $request)`
+###
+```php
 public function guardar(Request $request)
 {
     $request->validate([
@@ -52,11 +51,10 @@ public function guardar(Request $request)
 
     return redirect()->back()->with('success', 'Libro creado exitosamente.');
 }
-🌐 Rutas web (routes/web.php)
-
-php
-Copiar
-Editar
+```
+### 🌐 `Rutas web (routes/web.php)`
+###
+```php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LibrosController;
 
@@ -71,16 +69,22 @@ Route::get('/libros/leer', [LibrosController::class, 'leer'])->name('libros.leer
 Route::put('/libros/{libro}', [LibrosController::class, 'actualizar'])->name('libros.actualizar');   
 
 Route::delete('/libros/{libro}', [LibrosController::class, 'borrar'])->name('libros.borrar');
-⚙️ Tecnologías utilizadas
-Laravel 10.x
+```
 
-PHP 8.x
+### ⚙️ Tecnologías utilizadas
+###
 
-Blade (motor de plantillas)
+#### Laravel 10.x
 
-PostgreSQL o MySQL
+#### PHP 8.x
 
-📂 Estructura base del proyecto
+#### Blade (motor de plantillas)
+
+#### PostgreSQL o MySQL
+
+### 📂 Estructura base del proyecto
+###
+
 Copiar
 Editar
 app/
@@ -95,6 +99,7 @@ resources/
 │       └── eliminar.blade.php
 routes/
 └── web.php
-📌 Notas
+
+### 📌 Notas
 
 Este archivo es solo un ejemplo inicial de cómo documentar tu código con resaltado de sintaxis en Markdown. Podés seguir agregando fragmentos conforme avances en el proyecto.
