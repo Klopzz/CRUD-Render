@@ -1,9 +1,3 @@
-# 📚 Proyecto Laravel: Gestión de Libros
-
-Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando cada uno a su respectivo autor.
-
----
-
 > .[!NOTE].
 > Aqui tienes una nota especial
 
@@ -16,6 +10,12 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 > .[!WARNING].
 > Aqui tienes una nota especial
 
+
+# 📚 Proyecto Laravel: Gestión de Libros
+
+Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando cada uno a su respectivo autor.
+
+---
 
 ## 🧠 Funciones del Controlador `LibrosController.php`
 
