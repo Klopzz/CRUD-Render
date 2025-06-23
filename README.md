@@ -4,16 +4,16 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 
 ---
 
-> .[!NOTE]
+> .[!NOTE].
 > Aqui tienes una nota especial
 
-> .[!TIP]
+> .[!TIP].
 > Aqui tienes una nota especial
 
-> .[!IMPORTANT]
+> .[!IMPORTANT].
 > Aqui tienes una nota especial
 
-> .[!WARNING]
+> .[!WARNING].
 > Aqui tienes una nota especial
 
 
