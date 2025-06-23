@@ -7,7 +7,7 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 ## 🧠 Funciones del Controlador `LibrosController.php`
 
 ### ✅ `leer(Request $request)`
-###
+
 ```php
 public function leer(Request $request) 
 {
@@ -24,8 +24,11 @@ public function leer(Request $request)
     return view('libros.leer', compact('libros'));
 }
 ```
+
+---
+
 ### 📝 `guardar(Request $request)`
-###
+
 ```php
 public function guardar(Request $request)
 {
@@ -52,8 +55,11 @@ public function guardar(Request $request)
     return redirect()->back()->with('success', 'Libro creado exitosamente.');
 }
 ```
-### 🌐 `Rutas web (routes/web.php)`
-###
+
+---
+
+## 🌐 Rutas web (`routes/web.php`)
+
 ```php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LibrosController;
@@ -71,19 +77,9 @@ Route::put('/libros/{libro}', [LibrosController::class, 'actualizar'])->name('li
 Route::delete('/libros/{libro}', [LibrosController::class, 'borrar'])->name('libros.borrar');
 ```
 
-### ⚙️ Tecnologías utilizadas
-###
-```
-Laravel 10.x
+---
 
-PHP 8.x
-
-Blade (motor de plantillas)
-
-PostgreSQL o MySQL
-```
-### 📂 Estructura base del proyecto
-###
+## 📂 Estructura base del proyecto
 
 ```
 app/
@@ -100,6 +96,18 @@ routes/
 └── web.php
 ```
 
-### 📌 Notas
+---
 
-Este archivo es solo un ejemplo inicial de cómo documentar tu código con resaltado de sintaxis en Markdown. Podés seguir agregando fragmentos conforme avances en el proyecto.
+## ⚙️ Tecnologías utilizadas
+
+- Laravel 10.x
+- PHP 8.x
+- Blade (motor de plantillas)
+- PostgreSQL o MySQL
+
+---
+
+## 📌 Notas finales
+
+> Este archivo es un ejemplo de plantilla `README.md` para tu proyecto Laravel. 
+> Podés seguir agregando funciones, imágenes, capturas de pantalla o enlaces a Gist y Carbon conforme avances.
