@@ -4,6 +4,19 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 
 ---
 
+> .[!NOTE]
+> Aqui tienes una nota especial
+
+> .[!TIP]
+> Aqui tienes una nota especial
+
+> .[!IMPORTANT]
+> Aqui tienes una nota especial
+
+> .[!WARNING]
+> Aqui tienes una nota especial
+
+
 ## 🧠 Funciones del Controlador `LibrosController.php`
 
 ### ✅ `leer(Request $request)`
@@ -214,10 +227,3 @@ CRUD
 - <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg" alt="Laragon" height="35" width="35"/> Laragon 8.1.0
 - <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="35" width="35"/>PHP 8.3.16
 - <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="35" width="35"/>PostgreSQL 17
-
----
-
-## 📌 Notas finales
-
-> Este archivo es un ejemplo de plantilla `README.md` para tu proyecto Laravel. 
-> Podés seguir agregando funciones, imágenes, capturas de pantalla o enlaces a Gist y Carbon conforme avances.
