@@ -85,8 +85,7 @@ Route::delete('/libros/{libro}', [LibrosController::class, 'borrar'])->name('lib
 ### 📂 Estructura base del proyecto
 ###
 
-Copiar
-Editar
+```
 app/
 ├── Http/
 │   └── Controllers/
@@ -99,6 +98,7 @@ resources/
 │       └── eliminar.blade.php
 routes/
 └── web.php
+```
 
 ### 📌 Notas
 
