@@ -73,15 +73,15 @@ Route::delete('/libros/{libro}', [LibrosController::class, 'borrar'])->name('lib
 
 ### ⚙️ Tecnologías utilizadas
 ###
+```
+Laravel 10.x
 
-#### Laravel 10.x
+PHP 8.x
 
-#### PHP 8.x
+Blade (motor de plantillas)
 
-#### Blade (motor de plantillas)
-
-#### PostgreSQL o MySQL
-
+PostgreSQL o MySQL
+```
 ### 📂 Estructura base del proyecto
 ###
 
