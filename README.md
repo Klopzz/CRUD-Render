@@ -101,7 +101,7 @@ routes/
 ## ⚙️ Tecnologías utilizadas
 
 - ![LogoLaravel](https://laravel.com/img/logomark.min.svg) Laravel 10.x
-- ![LogoLaragon](https://cdn.worldvectorlogo.com/logos/laragon.svg) Laragon
+- <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg)" alt="LogoLaragon" height="100" width="100"/> Laragon
 - PHP 8.x
 - Blade (motor de plantillas)
 - PostgreSQL o MySQL
