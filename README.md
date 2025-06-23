@@ -1,3 +1,15 @@
+> [!NOTE]
+> Aqui tienes una nota especial
+
+> [!TIP]
+> Aqui tienes una nota especial
+
+> [!IMPORTANT]
+> Aqui tienes una nota especial
+
+> [!WARNING]
+> Aqui tienes una nota especial 
+
 # 📚 Proyecto Laravel: Gestión de Libros
 
 Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando cada uno a su respectivo autor.
