@@ -169,11 +169,15 @@ Debemos ejecutar las siguientes dos líneas de comando:
 
 En el Proyecto viene el .env.example, con la primera línea generamos una copia que se llama .env (que es la que usaremos) y con la segunda generamos la app_key que ns faltaba en nuestro nuevo archivo “.env”
 ![imagen7](docs/image7.png)
+
+
 ![imagen8](docs/image8.png)
+
+
 ![imagen9](docs/image9.png)
 
 Paso 7.
-En el archivo “.env” debemos descomentar la sección de la conexión de la base de datos cambiando colocando los datos de nuestra base de datos. 
+Creamos una base de datos vacia, posteriormente en el archivo “.env” debemos descomentar la sección de la conexión de la base de datos cambiando colocando los datos de nuestra base de datos. 
 > [!NOTE]
 >Nota: podemos utilizar una base de datos mysql (laragon la trae configurada por defecto ya que genera una base de datos al crear un proyecto laravel a través del Quick menú) pero tendríamos que cambiar la sintaxis de nuestras migraciones. La segunda opción es instalar postgresql en Laragon y crear un usuario y una instancia en Heidi(botón de base de datos en Laragon)):
 
