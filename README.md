@@ -179,7 +179,8 @@ copy .env.example .env
 php artisan key:generate
 ```
 
-En el Proyecto viene el .env.example, con la primera línea generamos una copia que se llama .env (que es la que usaremos) y con la segunda generamos la app_key que ns faltaba en nuestro nuevo archivo “.env”
+En el Proyecto viene el .env.example, con la primera línea generamos una copia que se llama .env (que es la que usaremos) y con la segunda generamos la app_key que nos faltaba en nuestro nuevo archivo “.env”
+
 ![imagen7](docs/image7.png)
 
 
