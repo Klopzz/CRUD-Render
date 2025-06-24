@@ -5,6 +5,10 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 
 ---
 
+## Proyecto desplegado en <img src="docs/render-community.svg" alt="Laragon" height="30" width="30"/>Render
+https://crud-render-5cwy.onrender.com
+
+---
 ## 📂 Estructura base del proyecto
 
 ```
