@@ -158,14 +158,18 @@ Descomentar la línea extensión=zip dentro del archivo php.ini de nuestro larag
 
 Paso 5.
 Abrimos nuestro proyecto con Visual studio,Abrimos una nueva Terminal e ingresamos el siguiente comando para descargar las dependencias necesarias.
-                        “composer install”
+```
+composer install
+```
 ![imagen5](docs/image5.png)
 ![imagen6](docs/image6.png)
 
 Paso 6.
 Debemos ejecutar las siguientes dos líneas de comando:
-                        copy .env.example .env
-                        php artisan key:generate
+```
+copy .env.example .env
+php artisan key:generate
+```
 
 En el Proyecto viene el .env.example, con la primera línea generamos una copia que se llama .env (que es la que usaremos) y con la segunda generamos la app_key que ns faltaba en nuestro nuevo archivo “.env”
 ![imagen7](docs/image7.png)
