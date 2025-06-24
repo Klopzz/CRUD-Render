@@ -5,7 +5,7 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 
 ---
 
-## Proyecto desplegado en <img src="docs/render-community.png" alt="render" height="50" width="30"/>Render
+## Proyecto desplegado en <img src="docs/render-community.png" alt="render" height="35" width="70"/>
 https://crud-render-5cwy.onrender.com
 
 ---
