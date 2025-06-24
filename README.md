@@ -224,3 +224,4 @@ Y con esos hemos terminado de instalar nuestro proyecto de backend con php.
 - <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="35" width="35"/>PHP 8.3.16
 - <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="35" width="35"/>PostgreSQL 17
 - <img src="docs/render-community.png" alt="render" height="35" width="80"/>
+- <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VSCode" height="35" width="35"/>Visual Studio Code
