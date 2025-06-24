@@ -204,14 +204,18 @@ Ejecutar las migraciones en nuestra consola con el siguiente comando:
 php artisan migrate
 ```
 ![imagen13](docs/image13.png)
+
 Podemos apreciar que se crearon nuestras tablas en el especial la tabla autor y la tabla libros que son las tablas que utilizamos en este proyecto.
+
 ![imagen14](docs/image14.png)
 
 Paso 9.
 Laragon nos da una gran facilidad, para ingresar a nuestro localhost basta con abrir el navegor e ingresar  “nombre_de_la_carpeta_de_tu_proyecto”.test:
+
 ![imagen15](docs/image15.png)
 
 O podemos mostrar tambien nuestro proyecto atraves de la interfas de Laragon de la siguiente manera Menu->www->Nombre de tu proyecto:
+
 ![imagen16](docs/image16.png)
 
 Y con esos hemos terminado de instalar nuestro proyecto de backend con php.
