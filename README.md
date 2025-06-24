@@ -191,7 +191,9 @@ Creamos una base de datos vacia, posteriormente en el archivo “.env” debemos
 
 Paso 8.
 Ejecutar las migraciones en nuestra consola con el siguiente comando:
-                        “php artisan migrate”
+```
+php artisan migrate
+```
 ![imagen13](docs/image13.png)
 Podemos apreciar que se crearon nuestras tablas en el especial la tabla autor y la tabla libros que son las tablas que utilizamos en este proyecto.
 ![imagen14](docs/image14.png)
