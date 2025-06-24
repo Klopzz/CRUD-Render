@@ -145,6 +145,7 @@ Extraer los archivos en la ruta “C:\laragon\www” :
 
 Paso 3
 Debemos instalar composer en nuestro laragon (en la ruta que se ve en la imagen), seria darle next hasta que finalize y luego reiniciar la computadora (esto ultimo en caso de haber tenido instalado composer en otra ruta previamente:
+
 ![imagen3](docs/image3.png)
 
 Paso 4.
