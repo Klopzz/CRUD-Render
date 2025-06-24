@@ -5,7 +5,7 @@ Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando c
 
 ---
 
-## Proyecto desplegado en <img src="docs/render-community.png" alt="render" height="35" width="70"/>
+## Proyecto desplegado en Render
 https://crud-render-5cwy.onrender.com
 
 ---
@@ -205,3 +205,4 @@ Y con esos hemos terminado de instalar nuestro proyecto de backend con php.
 - <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg" alt="Laragon" height="35" width="35"/> Laragon 8.1.0
 - <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="35" width="35"/>PHP 8.3.16
 - <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="35" width="35"/>PostgreSQL 17
+- <img src="docs/render-community.png" alt="render" height="35" width="70"/>Render
