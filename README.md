@@ -139,6 +139,12 @@ CRUD
 
 ## 🛠️ Pasos de Instalación
 
+### Requisitos previos
+- Laragon
+- PHP
+- Composer
+- Postgresql instalado en Laragon
+
 Paso1.
 Descargar el Zip desde el repositorio de github (o clonarlo).
 ![imagen1](docs/image1.png)
