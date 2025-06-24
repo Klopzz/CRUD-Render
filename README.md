@@ -10,7 +10,8 @@
 > [!WARNING]
 > Aqui tienes una nota especial 
 
-# 📚 Proyecto Laravel: Gestión de Libros
+#  Proyecto Backend con PHP
+#  📚 Listado de Libros
 
 Este proyecto permite **crear, leer, actualizar y eliminar libros**, asociando cada uno a su respectivo autor.
 
@@ -142,6 +143,63 @@ CRUD
 │     └─ ExampleTest.php
 └─ vite.config.js
 ```
+---
+
+## 🛠️ Pasos de Instalación
+
+Paso1.
+Descargar el Zip desde el repositorio de github (o clonarlo).
+![imagen1](docs/imagen1.png)
+
+Paso 2.
+Extraer los archivos en la ruta “C:\laragon\www” :  
+![imagen2](docs/imagen2.png)
+
+Paso 3
+Debemos instalar composer en nuestro laragon (en la ruta que se ve en la imagen), seria darle next hasta que finalize y luego reiniciar la computadora (esto ultimo en caso de haber tenido instalado composer en otra ruta previamente:
+![imagen3](docs/imagen3.png)
+
+Paso 4.
+Descomentar la línea extensión=zip dentro del archivo php.ini de nuestro laragon en la siguiente ruta:
+![imagen4](docs/imagen4.png)
+
+Paso 5.
+Abrimos nuestro proyecto con Visual studio,Abrimos una nueva Terminal e ingresamos el siguiente comando para descargar las dependencias necesarias.
+                        “composer install”
+![imagen5](docs/imagen5.png)
+![imagen6](docs/imagen6.png)
+
+Paso 6.
+Debemos ejecutar las siguientes dos líneas de comando:
+                        copy .env.example .env
+                        php artisan key:generate
+
+En el Proyecto viene el .env.example, con la primera línea generamos una copia que se llama .env (que es la que usaremos) y con la segunda generamos la app_key que ns faltaba en nuestro nuevo archivo “.env”
+![imagen7](docs/imagen7.png)
+![imagen8](docs/imagen8.png)
+![imagen9](docs/imagen9.png)
+
+Paso 7.
+En el archivo “.env” debemos descomentar la sección de la conexión de la base de datos cambiando colocando los datos de nuestra base de datos. Nota: podemos utilizar una base de datos mysql (laragon la trae configurada por defecto ya que genera una base de datos al crear un proyecto laravel a través del Quick menú) pero tendríamos que cambiar la sintaxis de nuestras migraciones. La segunda opción es instalar postgresql en Laragon y crear un usuario y una instancia en Heidi(botón de base de datos en Laragon)):
+![imagen10](docs/imagen10.png)
+![imagen11](docs/imagen11.png)
+![imagen12](docs/imagen12.png)
+
+Paso 8.
+Ejecutar las migraciones en nuestra consola con el siguiente comando:
+                        “php artisan migrate”
+![imagen13](docs/imagen13.png)
+Podemos apreciar que se crearon nuestras tablas en el especial la tabla autor y la tabla libros que son las tablas que utilizamos en este proyecto.
+![imagen14](docs/imagen14.png)
+
+Paso 9.
+Laragon nos da una gran facilidad, para ingresar a nuestro localhost basta con abrir el navegor e ingresar  “nombre_de_la_carpeta_de_tu_proyecto”.test:
+![imagen15](docs/imagen15.png)
+
+O podemos mostrar tambien nuestro proyecto atraves de la interfas de Laragon de la siguiente manera Menu->www->Nombre de tu proyecto:
+![imagen16](docs/imagen16.png)
+
+Y con esos hemos terminado de instalar nuestro proyecto de backend con php.
 
 ---
 
@@ -151,3 +209,4 @@ CRUD
 - <img src="https://cdn.worldvectorlogo.com/logos/laragon.svg" alt="Laragon" height="35" width="35"/> Laragon 8.1.0
 - <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" height="35" width="35"/>PHP 8.3.16
 - <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" height="35" width="35"/>PostgreSQL 17
+[!asdas][]
